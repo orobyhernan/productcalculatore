@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Product Table</title>
+    <!-- Link to the external CSS file -->
+     <link rel="stylesheet" href = "style.css">
+
+<body>
+
+    <h2>WAREHOUSE MAYHEM</h2>
+    <p>Welcome to my little project, this web page simulates a warehouse inventory control where you 
+        check the price for all the products that you have. Just input the name of a product in the product column (e.g: smartphone, Jordans, saucepan) 
+        and a category (e.g: electronics, footwear, utilities, you name it), a price for each and the quantity of products 
+        that you have, and input a category to find out the total price of products for that category. The calculator
+        will do the rest for you. Enjoy !!!
+    </p>
+
+
+
+    <div class="table-container">
+        <table id="productsTable">
+            <!-- Table content here -->
+            <thead id="thead" class="center-align">
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            
+                <tbody>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+        </table>
+    </div>
+
+    
+
+
+    <!--<table id="productsTable">
+    <thead id="thead" class="center-align">
+        <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    
+        <tbody>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </tbody>
+    </table> -->
+    
+    <label for="categoryInput">Target Category:</label>
+    <input type="text" id="categoryInput" placeholder="Enter target category" />
+
+    <button id="calculateButton">Calculate how much 
+        it's gonna cost ya (probably a lot)</button>
+    <h1 id="h1elements">Results from the calculations will be displayed below</h1>
+
+    <div id="results"></div> <!-- Div for displaying the total price -->
+       
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
